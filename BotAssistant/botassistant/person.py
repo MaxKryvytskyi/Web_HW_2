@@ -1,4 +1,4 @@
-from fields import PersonFormatterInfo
+from BotAssistant.botassistant.fields import PersonFormatterInfo
 
 # from BotAssistant.fields import PersonFormatterInfo
 

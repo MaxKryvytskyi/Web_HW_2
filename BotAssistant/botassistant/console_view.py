@@ -1,8 +1,8 @@
 
-from view import AbstractViewTerminal
+from BotAssistant.botassistant.view import AbstractViewTerminal
 
-from address_book import AddressBook
-from note_book import NoteBook
+from BotAssistant.botassistant.address_book import AddressBook
+from BotAssistant.botassistant.note_book import NoteBook
 
 # from BotAssistant.view import AbstractView
 # from BotAssistant.address_book import AddressBook

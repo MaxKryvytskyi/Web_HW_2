@@ -5,9 +5,9 @@ import re
 # from BotAssistant.note_book import Note, Tag, Record, NoteBook
 # from BotAssistant.console_view import Console_View
 
-from bot_work import input_error, works_bot, start_work_bot
-from note_book import Note, Tag, Record, NoteBook
-from console_view import ConsoleView
+from BotAssistant.botassistant.bot_work import input_error, works_bot, start_work_bot
+from BotAssistant.botassistant.note_book import Note, Tag, Record, NoteBook
+from BotAssistant.botassistant.console_view import ConsoleView
 
 note_book = NoteBook()
 console_view = ConsoleView()

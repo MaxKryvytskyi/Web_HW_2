@@ -7,10 +7,10 @@ from rich.table import Table
 # from BotAssistant.clean import sort_main
 # from BotAssistant.bot_work import input_error
 
-from contact_book import contact_start
-from notes_book import note_start
-from clean import sort_main
-from bot_work import input_error
+from BotAssistant.botassistant.contact_book import contact_start
+from BotAssistant.botassistant.notes_book import note_start
+from BotAssistant.botassistant.clean import sort_main
+from BotAssistant.botassistant.bot_work import input_error
 
 console = Console()
 
