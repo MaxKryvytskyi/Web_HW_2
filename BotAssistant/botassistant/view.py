@@ -1,9 +1,6 @@
 from abc import ABC, abstractmethod
-from BotAssistant.botassistant.contact_book import AddressBook
-from BotAssistant.botassistant.note_book import NoteBook
-
-# from BotAssistant.contact_book import AddressBook
-# from BotAssistant.note_book import NoteBook
+from contact_book import AddressBook
+from note_book import NoteBook
 
 class AbstractViewTerminal(ABC):
 

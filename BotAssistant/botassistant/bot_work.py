@@ -7,9 +7,9 @@ from rich.table import Table
 # from BotAssistant.note_book import NoteBook
 # from BotAssistant.my_exception import ExceptionIncorrectFormat
 
-from BotAssistant.botassistant.address_book import AddressBook
-from BotAssistant.botassistant.note_book import NoteBook
-from BotAssistant.botassistant.my_exception import ExceptionIncorrectFormat
+from address_book import AddressBook
+from note_book import NoteBook
+from my_exception import ExceptionIncorrectFormat
 
 works_bot = True
 

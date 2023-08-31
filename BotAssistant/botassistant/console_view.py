@@ -1,16 +1,9 @@
 
-from BotAssistant.botassistant.view import AbstractViewTerminal
-
-from BotAssistant.botassistant.address_book import AddressBook
-from BotAssistant.botassistant.note_book import NoteBook
-
-# from BotAssistant.view import AbstractView
-# from BotAssistant.address_book import AddressBook
-# from BotAssistant.note_book import NoteBook
-
-
 from rich.table import Table
-from rich.console import Console
+
+from view import AbstractViewTerminal
+from address_book import AddressBook
+from note_book import NoteBook
 
 
 class ConsoleView(AbstractViewTerminal):

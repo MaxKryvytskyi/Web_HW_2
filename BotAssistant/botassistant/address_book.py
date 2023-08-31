@@ -4,7 +4,7 @@ import pickle
 
 from rich.table import Table
 
-from BotAssistant.botassistant.person import Person
+from person import Person
 # from BotAssistant.person import Person
 
 class AddressBook(UserDict):
